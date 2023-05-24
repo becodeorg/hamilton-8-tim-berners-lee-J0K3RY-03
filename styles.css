@@ -1,0 +1,24 @@
+:root {
+    --bgColor: #858383;
+    --pageColor: white;
+    --titleColor: #474747;
+    --textColor: #aaaaaa;
+    --fontText: 'Open Sans', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: var(--bgColor);
+    min-height: 100vh;
+}
+
+main {
+    width: 50%;
+    margin: 0 auto;
+    background: var(--pageColor);
+}
